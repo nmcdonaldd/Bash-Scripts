@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo "Cleaning Up" &&
+echo "Cleaning up..." &&
 sudo apt-get -f install &&
 sudo apt-get autoremove &&
 sudo apt-get -y autoclean &&
